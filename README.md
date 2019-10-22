@@ -11,6 +11,5 @@ conda create -n pysyft python=3
 conda activate pysyft
 conda install numpy jupyter notebook
 conda install pytorch torchvision -c pytorch
-pip install syft
+pip install syft[udacity]
 ```
-
